@@ -1,0 +1,5 @@
+[[runs]]
+config = "qplex"
+arguments = [
+  "name=qplex",
+]

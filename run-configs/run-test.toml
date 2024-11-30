@@ -1,0 +1,39 @@
+arguments = [
+  "t_max=100_000",
+]
+
+[[runs]]
+config = "qfix_sum"
+arguments = [
+  "name=qfix_sum_test",
+]
+
+[[runs]]
+config = "qfix_mono"
+arguments = [
+  "name=qfix_mono_test",
+]
+
+[[runs]]
+config = "qfix_sum_alt"
+arguments = [
+  "name=qfix_sum_alt_test",
+]
+
+[[runs]]
+config = "q+fix_sum"
+arguments = [
+  "name=q+fix_sum_test",
+]
+
+[[runs]]
+config = "q+fix_mono"
+arguments = [
+  "name=q+fix_mono_test",
+]
+
+[[runs]]
+config = "q+fix_sum_alt"
+arguments = [
+  "name=q+fix_sum_alt_test",
+]

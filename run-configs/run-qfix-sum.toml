@@ -1,0 +1,5 @@
+[[runs]]
+config = "qfix_sum"
+arguments = [
+  "name=qfix_sum",
+]

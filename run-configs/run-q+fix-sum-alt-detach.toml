@@ -1,0 +1,6 @@
+[[runs]]
+config = "q+fix_sum_alt"
+arguments = [
+  "name=q+fix_sum_alt_detach",
+  "qfix_detach_advantages=True",
+]

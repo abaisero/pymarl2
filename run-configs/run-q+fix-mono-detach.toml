@@ -1,0 +1,6 @@
+[[runs]]
+config = "q+fix_mono"
+arguments = [
+  "name=q+fix_mono_detach",
+  "qfix_detach_advantages=True",
+]
