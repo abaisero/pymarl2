@@ -36,6 +36,9 @@ class Logger:
         wandb.define_metric("test/*", step_metric="train/step")
         self.use_wandb = True
 
+    def finish_wandb(self):
+        wandb.finish()
+
     def log_stat(self, key, value, t, to_sacred=True):
         self.stats[key].append((t, value))
 

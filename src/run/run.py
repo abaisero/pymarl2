@@ -60,6 +60,9 @@ def run(_run, _config, _log):
     # Run and train
     run_sequential(args=args, logger=logger)
 
+    if args.use_wandb:
+        logger.finish_wandb()
+
     # Clean up after finishing
     print("Exiting Main")
 
