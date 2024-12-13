@@ -1,0 +1,9 @@
+env_config = "sc2_gen_protoss"
+n_runs = 1
+arguments = [
+  "entity=nu-llpr",
+  "project=qfix",
+  "env_args.capability_config.n_units=20",
+  "env_args.capability_config.n_enemies=20",
+  "t_max=10_000_000",
+]

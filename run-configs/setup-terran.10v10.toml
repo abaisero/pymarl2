@@ -1,0 +1,9 @@
+env_config = "sc2_gen_terran"
+n_runs = 1
+arguments = [
+  "entity=nu-llpr",
+  "project=qfix",
+  "env_args.capability_config.n_units=10",
+  "env_args.capability_config.n_enemies=10",
+  "t_max=10_000_000",
+]
