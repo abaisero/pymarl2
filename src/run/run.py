@@ -33,7 +33,8 @@ def run(_run, _config, _log):
 
     args = SN(**_config)
     args.device = "cuda" if args.use_cuda else "cpu"
-    args.tag = generate_tag(args.name, args.env_args["map_name"])
+    if args.tag=="":
+        args.tag = generate_tag(args.name, args.env_args["map_name"])
     # setup loggers
     logger = Logger(_log)
 
