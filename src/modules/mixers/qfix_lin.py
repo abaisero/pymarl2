@@ -7,7 +7,7 @@ import torch.nn as nn
 from .qfix_weight import QFix_FF_Weight, QFix_SI_Weight, gt_constraint
 
 
-class QFixSumAlt(nn.Module):
+class QFixLin(nn.Module):
     def __init__(self, args: SimpleNamespace):
         super().__init__()
 

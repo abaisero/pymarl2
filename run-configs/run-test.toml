@@ -15,9 +15,9 @@ arguments = [
 ]
 
 [[runs]]
-config = "qfix_sum_alt"
+config = "qfix_lin"
 arguments = [
-  "name=qfix_sum_alt_test",
+  "name=qfix_lin_test",
 ]
 
 [[runs]]
@@ -33,7 +33,7 @@ arguments = [
 ]
 
 [[runs]]
-config = "q+fix_sum_alt"
+config = "q+fix_lin"
 arguments = [
-  "name=q+fix_sum_alt_test",
+  "name=q+fix_lin_test",
 ]

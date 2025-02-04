@@ -1,6 +1,6 @@
 [[runs]]
-config = "q+fix_sum_alt"
+config = "q+fix_lin"
 arguments = [
-  "name=q+fix_sum_alt_detach",
+  "name=q+fix_lin_detach",
   "qfix_detach_advantages=True",
 ]

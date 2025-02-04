@@ -1,0 +1,5 @@
+[[runs]]
+config = "qfix_lin"
+arguments = [
+  "name=qfix_lin",
+]

@@ -19,7 +19,7 @@ agent: "n_rnn"
 agent_output_type: "q"
 
 learner: "qfix_learner"
-mixer: "qfix_sum_alt"
+mixer: "qfix_lin"
 mixing_embed_dim: 32
 hypernet_embed: 64
 adv_hypernet_layers: 2
@@ -34,4 +34,4 @@ qfix_w_delta: 0
 qfix_w_gt: -1
 qfix_detach_advantages: False
 
-name: "q+fix_sum_alt"
+name: "q+fix_lin"

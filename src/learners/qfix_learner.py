@@ -9,7 +9,7 @@ import torch.nn.functional as F
 from components.episode_buffer import EpisodeBatch
 from controllers.basic_controller import BasicMAC
 from modules.mixers.qfix import QFix
-from modules.mixers.qfix_sum_alt import QFixSumAlt
+from modules.mixers.qfix_lin import QFixLin
 from utils.logging import Logger
 from utils.rl_utils import build_td_lambda_targets
 from utils.th_utils import get_parameters_num
@@ -19,8 +19,8 @@ def make_mixer(args: SimpleNamespace) -> nn.Module:
     if args.mixer == "qfix":
         return QFix(args)
 
-    if args.mixer == "qfix_sum_alt":
-        return QFixSumAlt(args)
+    if args.mixer == "qfix_lin":
+        return QFixLin(args)
 
     raise ValueError(f'invalid mixer type "{args.mixer}"')
 
