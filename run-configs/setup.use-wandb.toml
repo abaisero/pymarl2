@@ -1,0 +1,5 @@
+arguments = [
+  "use_wandb=True",
+  "entity=nu-llpr",
+  "project=qfix",
+]

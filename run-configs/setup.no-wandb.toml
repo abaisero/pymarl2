@@ -1,0 +1,3 @@
+arguments = [
+  "use_wandb=False",
+]
