@@ -1,0 +1,11 @@
+[[runs]]
+config = "qmix"
+arguments = [
+  "name=qmix-bigger",
+  # "mixing_embed_dim=32",
+  # "mixing_embed_dim=64",
+  "mixing_embed_dim=128",
+  # "hypernet_embed=64",
+  "hypernet_embed=128",
+  # "hypernet_embed=256",
+]
