@@ -21,3 +21,11 @@ This repository has very few changes from previous QMIX work, except that it run
 }
 ```
 
+# QFIX
+
+Do not use th e`run` scritps from the repository root to run the QFIX experiments.
+Instead, use the scripts in the `qfix-scripts` folder, e.g., first set the wandb entity and project accordingly by editing `qfix-scripts/configs/setup.use-wandb.toml`, and then run the following from the repository root:
+```
+./qfix-scripts/run-neurips.sh
+./qfix-scripts/run-neurips-ablation.sh
+```

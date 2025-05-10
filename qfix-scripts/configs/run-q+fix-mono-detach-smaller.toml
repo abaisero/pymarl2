@@ -1,0 +1,12 @@
+[[runs]]
+config = "q+fix_mono"
+arguments = [
+  "name=q+fix_mono_detach",
+  "qfix_detach_advantages=True",
+  "inner_mixer.mixing_embed_dim=8",
+  # "inner_mixer.mixing_embed_dim=16",
+  # "inner_mixer.mixing_embed_dim=32",
+  "inner_mixer.hypernet_embed=1",
+  # "inner_mixer.hypernet_embed=32",
+  # "inner_mixer.hypernet_embed=64",
+]

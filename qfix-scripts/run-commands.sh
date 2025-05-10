@@ -9,7 +9,7 @@ function log() {
 
 source ./source-this.sh
 
-python make-run-commands.py "$@" | while read -r command; do
+python qfix-scripts/make-run-commands.py "$@" | while read -r command; do
   log "python $command"
   # NOTE: do not double quote
   python $command
